@@ -9,7 +9,7 @@ The analysis highlights key trends in:
 - Monthly profit patterns  
 - Top customer contributions  
 
-This project reflects a complete analytics workflow — from raw data to final insights.
+This project reflects a complete analytics workflow from raw data to final insights.
 
 
 
@@ -94,6 +94,7 @@ This project highlights my ability to:
 - Use slicers to make reports dynamic  
 - Identify key business insights  
 - Analyze sales and profit across multiple dimensions  
+
 
 
 

@@ -26,7 +26,7 @@ This project reflects a complete analytics workflow from raw data to final insig
 
 
 ## **Dataset**
-- **Source:** Kaggle – Superstore Dataset  
+- **Source:** Kaggle Superstore Dataset  
 - **Original Format:** CSV  
 - **Cleaned File:** `sales_data_clean.xlsx`  
 
@@ -94,6 +94,7 @@ This project highlights my ability to:
 - Use slicers to make reports dynamic  
 - Identify key business insights  
 - Analyze sales and profit across multiple dimensions  
+
 
 
 

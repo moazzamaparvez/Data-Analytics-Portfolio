@@ -1,106 +1,97 @@
-Superstore Sales Data Analytics
-Overview
+# **Superstore Sales Data Analytics**
 
-This project showcases my ability to analyze, clean, and visualize real-world sales data using Microsoft Excel. Using the popular Superstore dataset, I transformed raw CSV data into meaningful insights through data cleaning, PivotTables, charts, and an interactive dashboard.
+## **Overview**  
+This project showcases my ability to analyze, clean, and visualize real-world sales data using **Microsoft Excel**. Using the popular **Superstore dataset**, I transformed raw CSV data into meaningful insights through data cleaning, PivotTables, charts, and an interactive dashboard.
 
-The analysis highlights key trends in regional sales, category performance, monthly profit patterns, and top-performing customers. This project reflects my end-to-end data analytics workflow from data preparation to insight generation.
+The analysis highlights key trends in:  
+- Regional sales performance  
+- Category-level insights  
+- Monthly profit patterns  
+- Top customer contributions  
 
-Tools Used
+This project reflects a complete analytics workflow — from raw data to final insights.
 
-Microsoft Excel
 
-PivotTables
 
-Charts
+## **🛠️ Tools Used**
+- **Microsoft Excel**  
+  - PivotTables  
+  - PivotCharts  
+  - Slicers  
+  - Dashboard design  
+- **Power Query**  
+  - Data loading  
+  - TRIM & CLEAN transformations  
+  - Duplicate removal  
 
-Slicers
 
-Dashboard layout
+## **Dataset**
+- **Source:** Kaggle – Superstore Dataset  
+- **Original Format:** CSV  
+- **Cleaned File:** `sales_data_clean.xlsx`  
 
-Power Query
+The dataset contains information on orders, sales, customers, products, shipping, profit, regions, and more.
 
-Data loading
 
-TRIM & CLEAN transformations
 
-Duplicate removal
+## ** Data Cleaning & Preparation**
 
-Dataset
+### **1. Cleaning Text Columns**
+To remove inconsistencies and formatting issues, the following columns were cleaned:
+- Customer Name  
+- Product Name  
+- Category  
+- Customer ID  
+- ZIP Code  
 
-Source: Kaggle Superstore Dataset
+Techniques used:  
+- **TRIM** to remove extra spaces  
+- **CLEAN** for non-printable characters  
+- **Find & Replace** for standardization  
+- Power Query transformations  
+- Duplicate row removal  
 
-Original Format: CSV
 
-Final Cleaned File: sales_data_clean.xlsx
 
-The dataset includes detailed information on orders, customers, products, regions, shipping, sales, profit, and discounts.
+### **2️. Formatting Numeric Columns**
+All numeric fields were standardized to ensure accurate calculations:
+- **Sales** → formatted to **2 decimal places**  
+- **Profit** → formatted to **2 decimal places** (negative values kept as real losses)  
+- **Quantity** → formatted as **whole numbers**  
+- **Discount** → formatted to **2 decimal places**  
 
-Data Cleaning & Preparation
-1. Cleaning Text Columns
+This ensured consistency in PivotTables and charts.
 
-Text fields often contained extra spaces or inconsistent formatting. I standardized:
 
-Customer Name
 
-Product Name
+### **3️. Formatting Date Columns**
+Both date fields were cleaned and converted to proper date formats:
+- Order Date  
+- Ship Date  
 
-Category
+Additionally, a new field was created for trend analysis:
+- **Order Month** → `=TEXT([@[Order Date]], "mmm")`  
 
-Customer ID
+This made monthly insights easier to extract.
 
-ZIP Code
 
-Using Power Query and Excel functions such as TRIM, CLEAN, and Find & Replace, all text values were cleaned. Duplicate rows were also removed to ensure data accuracy.
+### **4️. Final Validation Checks**
+Before analysis, the dataset was reviewed for:
+- Missing or invalid values  
+- Uniform category naming  
+- Correct ZIP code formatting  
+- Accurate numeric calculations in PivotTables  
 
-2. Cleaning Numeric Columns
+Result: a fully structured, analysis-ready dataset.
 
-To ensure accuracy and make calculations consistent across PivotTables:
 
-Sales → formatted to 2 decimal places
 
-Profit → formatted to 2 decimal places (negative profit values kept as they represent loss)
+## **What This Project Demonstrates**
+This project highlights my ability to:
+- Clean and prepare messy real-world data  
+- Build PivotTables for structured analysis  
+- Create an **interactive Excel dashboard**  
+- Use slicers to make reports dynamic  
+- Identify key business insights  
+- Analyze sales and profit across multiple dimensions  
 
-Quantity → converted to whole numbers
-
-Discount → standardized to 2 decimal places
-
-This formatting helped maintain clarity and precision throughout the analysis.
-
-3. Cleaning Date Columns
-
-Reformatted Order Date and Ship Date using a consistent Date format
-
-Added a new Order Month column using:
-=TEXT([@[Order Date]], "mmm")
-
-This allowed for clear time-based analysis, such as monthly profit trends.
-
-4. Final Validation
-
-Before building PivotTables and dashboards, I verified that:
-
-No missing or inconsistent values remained
-
-Category names were uniform
-
-All ZIP codes followed a valid format
-
-Numeric fields behaved correctly during calculations
-
-The dataset was then finalized and saved as sales_data_clean.xlsx, ready for analysis.
-
-What This Project Demonstrates
-
-This project highlights my capability to:
-
-Clean and prepare a real-world dataset
-
-Build PivotTable-based analysis efficiently
-
-Create a professional, interactive Excel dashboard
-
-Use slicers to make visuals dynamic and user-friendly
-
-Identify and communicate meaningful business insights
-
-Analyze performance across customers, product categories, time periods, and regions

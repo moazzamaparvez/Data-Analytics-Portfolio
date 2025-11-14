@@ -34,7 +34,7 @@ The dataset contains information on orders, sales, customers, products, shipping
 
 
 
-## ** Data Cleaning & Preparation**
+## **Data Cleaning & Preparation**
 
 ### **1. Cleaning Text Columns**
 To remove inconsistencies and formatting issues, the following columns were cleaned:
@@ -94,6 +94,7 @@ This project highlights my ability to:
 - Use slicers to make reports dynamic  
 - Identify key business insights  
 - Analyze sales and profit across multiple dimensions  
+
 
 
 

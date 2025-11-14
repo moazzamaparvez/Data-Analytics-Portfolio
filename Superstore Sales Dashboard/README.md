@@ -1,8 +1,7 @@
 # Superstore Data Analytics Portfolio
 
-## Overview
+# Overview
 This portfolio demonstrates data analytics and visualization skills using a **Superstore dataset**. The goal is to showcase insights derived from sales data across regions, categories, time periods, and customers using **Excel, PivotTables, charts, and dashboards**.
-
 
 ## Tools Used
 - **Excel:** PivotTables, Charts, Slicers  
@@ -28,4 +27,5 @@ This portfolio demonstrates data analytics and visualization skills using a **Su
 - Checked for missing values and inconsistencies  
 - Removed duplicate records  
 - Standardized text using **TRIM** and **Find & Replace**  
+
 
